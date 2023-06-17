@@ -1,0 +1,315 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+body {
+  background-color: white;
+  padding-top: 3.5rem;
+  background-color: rgb(246, 248, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 35vw;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin: 5rem auto;
+    height: 15rem;
+    display: block;
+    font-size: 1.7rem;
+    padding: 2rem 2rem 8rem 2rem;
+    box-shadow: inset;
+    outline: 1px solid rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1rem;
+  }
+
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    opacity: 0;
+    font-weight: 450;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+    color: rgb(37, 37, 37);
+    letter-spacing: 0.3px;
+  }
+  .underline {
+    color: blue;
+    font-weight: 700;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr -1fr;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+  .quote-icon {
+    color: white;
+    width: 30px;
+    bottom: 28.3rem;
+    right: 41rem;
+    position: absolute;
+    height: 1.7rem;
+    font-size: 16px;
+    text-align: center;
+    padding: 7.7px 5px 2px 4px;
+    border-radius: 50%;
+    background-color: rgb(83, 83, 209);
+  }
+
+  .img-container {
+    display: flex;
+    height: 8rem;
+    position: relative;
+    margin-top: 0.5rem;
+    box-shadow: 2px;
+    cursor: pointer;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  .person-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29%;
+    height: 8rem;
+    padding-right: 10px;
+    background-color: rgb(83, 83, 209);
+  }
+  .author {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 7px;
+  }
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .description {
+    font-size: 13px;
+    color: rgb(48, 46, 46);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3px;
+  }
+  .post {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    padding-top: 6px;
+    letter-spacing: 0.3px;
+  }
+  .button-container {
+    text-align: center;
+  }
+  .prev-btn {
+    width: 5%;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 3px;
+    margin: 2px;
+    color: blue;
+    cursor: pointer;
+  }
+  .prev-btn :hover {
+    border: 1px solid black;
+  }
+  .next-btn {
+    width: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 3px;
+    margin: 2px;
+    color: blue;
+  }
+  .next-btn :hover {
+    border: 1px solid black;
+  }
+  .random-btn {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 11px;
+    border: none;
+    letter-spacing: 1px;
+    background-color: rgb(201, 200, 200);
+  }
+  .random-class {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 60vw;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin: 5rem auto;
+    height: 15rem;
+    display: block;
+    font-size: 1.7rem;
+    padding: 2rem 2rem 8rem 2rem;
+    box-shadow: inset;
+    outline: 1px solid rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1rem;
+  }
+
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    opacity: 0;
+    font-weight: 450;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+    color: rgb(37, 37, 37);
+    letter-spacing: 0.3px;
+  }
+  .underline {
+    color: blue;
+    font-weight: 700;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr -1fr;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+  .quote-icon {
+    color: white;
+    width: 30px;
+    bottom: 27.5rem;
+    right: 21.5rem;
+    position: absolute;
+    height: 1.7rem;
+    font-size: 16px;
+    text-align: center;
+    padding: 7.7px 5px 2px 4px;
+    border-radius: 50%;
+    background-color: rgb(83, 83, 209);
+  }
+
+  .img-container {
+    display: flex;
+    height: 8rem;
+    position: relative;
+    margin-top: 0.5rem;
+    box-shadow: 2px;
+    cursor: pointer;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  .person-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 8.2rem;
+    padding-right: 10px;
+    background-color: rgb(83, 83, 209);
+  }
+  .author {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 7px;
+  }
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .description {
+    font-size: 13px;
+    color: rgb(48, 46, 46);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3px;
+  }
+  .post {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    padding-top: 6px;
+    letter-spacing: 0.3px;
+  }
+  .button-container {
+    text-align: center;
+  }
+  .prev-btn {
+    width: 5%;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    color: blue;
+    cursor: pointer;
+  }
+  .prev-btn :hover {
+    border: 1px solid black;
+  }
+  .next-btn {
+    width: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    color: blue;
+  }
+  .next-btn :hover {
+    border: 1px solid black;
+  }
+  .random-btn {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 11px;
+    border: none;
+    letter-spacing: 1px;
+    background-color: rgb(201, 200, 200);
+  }
+  .random-class {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
